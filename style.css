@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&display=swap");
 
 body {
   margin: 0;
@@ -7,31 +7,36 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-.patates{
+.patates {
   position: fixed;
   top: 0%;
   left: 0%;
   width: 50%;
   height: 100%;
-  background-color:aqua;
+  background-color: aqua;
   /* border: 3px solid #73AD21; */
 }
 
-.karota{
+.karota {
   position: fixed;
   top: 0%;
   left: 50%;
   width: 50%;
   height: 100%;
-  background-color:blueviolet;
+  background-color: blueviolet;
   z-index: 1;
 }
 
-.brokola{
+.brokola {
+  border-width: 7px;
+  border-style:dotted;
+  border-color:black;
+  color: olive;
+  text-decoration: none;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   z-index: 2;
   font-size: 150px;
-  font-family: 'Fasthand', cursive;
+  font-family: "Fasthand", cursive;
 }
